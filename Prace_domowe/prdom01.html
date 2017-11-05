@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Zadanie domowe 1</title>
+        <style>
+            .wrapper {
+                width: 600px;
+            }
+            </style>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <fieldset>
+                <legend>Szczegóły konta:</legend>
+                <label>Imię:
+                    <input type="text" name="email" />
+                </label><br />
+                <br />
+                <label>Email:
+                    <input type="text" name="mobile" />
+                </label><br />
+            </fieldset>
+            <br />
+            <fieldset>
+                    <legend>Kilka informacji o Tobie:</legend>
+                    <br />
+                    <label>Czy odwiedzisz nas ponownie?<br />
+                        <input type="radio" name="visit_again" value="yes" />
+                        Tak
+                        <input type="radio" name="visit_again" value="no" />
+                        Nie
+                        <input type="radio" name="visit_again" value="maybe" />
+                        Może
+                    </label><br />
+                    <br />
+                    <label>Komentarz:<br />
+                        <textarea name="comment" cols="45" rows="5"></textarea>
+                    </label><br />
+                    <input type="checkbox" name="newsletter" value="yes" checked="checked" />
+                    Chcę być informowany o aktualizacjach.
+                    </label><br />
+                    <button name="submit">Prześlij informacje</button>
+                </fieldset>
+        </div>
+    </body>
+</html>
